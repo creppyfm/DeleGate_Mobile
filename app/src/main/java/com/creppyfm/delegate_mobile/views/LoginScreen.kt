@@ -36,7 +36,7 @@ fun LoginScreen(
             .padding(16.dp),
         contentAlignment = Alignment.Center
     ) {
-        Button(onClick = { onSignInClick }) {
+        Button(onClick = onSignInClick) {
             Text(text = "Sign In With Google")
         }
     }
